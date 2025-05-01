@@ -58,11 +58,11 @@ export function Head({ metadata }: { metadata: Metadata }) {
         sizes='16x16'
         href='/favicon-16x16.png'
       />
-      <link
+      {/* <link
         rel='apple-touch-icon'
         sizes='180x180'
         href='/apple-touch-icon.png'
-      />
+      /> */}
       <link rel='manifest' href='/site.webmanifest' />
     </head>
   )

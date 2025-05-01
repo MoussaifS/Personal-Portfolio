@@ -24,6 +24,7 @@ import { VercelIcon } from '@/components/icons/tags/vercel'
 import { BasehubIcon } from '@/components/icons/tags/basehub'
 import { GraphQLIcon } from '@/components/icons/tags/graphql'
 import { FileTextIcon, LinkIcon, MailIcon } from 'lucide-react'
+import { title } from 'process'
 
 export const AVATAR = {
   name: 'Moussaif Souhail',
@@ -263,9 +264,24 @@ export const PROJECTS = [
     image: '/images/masarat-balady-quest.png' // Update with your image if available
   },  
   {
+    title: "Venue Booking App – Office Space Scheduling Platform",
+    description:
+    'Currently under active development, Streamline office space reservations. Enables users to view venue availability, explore setup options, and make bookings based on real-time capacity and pricing data. Built with scalability in mind for small to mid-sized venue operators.',
+    tags: [
+      TAGS.TAILWIND,
+      TAGS.TYPESCRIPT,
+      TAGS.VERCEL,
+      TAGS.NEXT,
+    ],
+    link: {
+      preview: 'https://bookingvenues-5pdr.vercel.app/',
+      github: 'https://github.com/MoussaifS/bookingvenues', 
+    },
+  },
+  {
     title: 'TikTok Tech Community - Knowledge Sharing Platform',
     tags: [
-      
+
     ],
     description:
       'Growing a 1.5K-strong TikTok tech community focused on human-to-human knowledge sharing. Creating educational content about software development, market research, and tech entrepreneurship in Saudi Arabia and beyond.',
@@ -300,9 +316,6 @@ export const PROJECTS = [
       TAGS.CSS,
       TAGS.NEXT,
       TAGS.PNPM,
-      TAGS.REACT,
-      TAGS.TAILWIND,
-      TAGS.TYPESCRIPT,
       TAGS.VERCEL
     ],
     description:
