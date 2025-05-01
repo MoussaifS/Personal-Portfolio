@@ -1,4 +1,6 @@
-import { NextResponse } from 'next/server'
+/* Commenting out the entire file to disable the route for now
+
+import { type NextRequest, NextResponse } from 'next/server';
 import { Resend } from 'resend'
 import { ContactEmailTemplate } from '@/components/contact-email-template'
 import { type ContactEmailTemplateProps } from '@/types'
@@ -8,7 +10,8 @@ export const dynamic = 'force-dynamic'
 
 const resend = new Resend(process.env.RESEND_API_KEY)
 
-export async function POST(request: Request) {
+
+export async function POST(request: NextRequest) {
   const { firstName, lastName, email, message } =
     (await request.json()) as ContactEmailTemplateProps
 
@@ -43,3 +46,5 @@ export async function POST(request: Request) {
     })
   }
 }
+
+*/
