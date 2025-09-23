@@ -107,8 +107,8 @@ export function Hero() {
         <a href="https://www.tiktok.com/@duckthedj" target="_blank" rel="noopener noreferrer">
           <blockquote 
             className="tiktok-embed" 
-            cite="https://www.tiktok.com/@duckthedj/video/7481086214381079826" 
-            data-video-id="7481086214381079826" 
+            cite="https://www.tiktok.com/@moussaifsouhail/video/7542583588919790866?lang=en" 
+            data-video-id="7542583588919790866" 
             style={{ maxWidth: "325px", minWidth: "200px" }}
           >
             <section>Loading...</section>

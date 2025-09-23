@@ -73,15 +73,33 @@ export const LINKS = [
 ]
 export const CAREER = [
   {
+    company: '🇸🇦 Nuzul [Proptech]',
+    link: 'https://nuzul.co/', // Add link if available
+    badges: ['On-site'],
+    Region: '🇸🇦',
+    jobs: [
+      {
+        title: 'Software Engineer & Product Manager',
+        start: 'Apr, 2025',
+        end: 'Present',
+        description: [
+          'Leading technical architecture and product strategy for proptech solutions in Saudi Arabia.',
+          'Managing cross-functional teams to deliver innovative real estate technology platforms.',
+          'Driving product development from concept to market launch with focus on user experience and scalability.'
+        ]
+      }
+    ]
+  },
+  {
     company: '🇸🇦 Tripex [Tourism Experiences – Mvplab]',
     link: 'https://trip-ex.com/', // Add link if available
     badges: ['Remote'],
     Region: '🇸🇦',
     jobs: [
       {
-        title: 'Software Engineer',
+        title: 'Lead Software Engineer',
         start: 'Apr, 2024',
-        end: 'Present',
+        end: 'Apr, 2025',
         description: [
           'Led the technical development and successful graduation from NTDP.gov program while coordinating 2 offshore teams.',
           'Built full-stack MVP with Node.js, MySQL REST API, cloud infrastructure, and frontend services within 3 months.',
@@ -239,7 +257,35 @@ const TAGS = {
 }
 
 export const PROJECTS = [
-  
+  {
+    title: 'loc8.club - Urban Explorers Neighborhood Journey Platform',
+    tags: [
+      TAGS.REACT,
+      TAGS.TYPESCRIPT,
+      TAGS.TAILWIND,
+      TAGS.NEXT,
+      TAGS.NODE,
+      TAGS.VERCEL
+    ],
+    description:
+      'A curated neighborhood journey platform that transforms urban exploration by bundling the best spots into cohesive experiences. Instead of evaluating single-point recommendations, users discover entire neighborhood journeys that maximize location ROI and access hidden gems through visual journey planning.',
+    link: {
+      preview: 'https://loc8.club'
+    },
+    image: '/images/loc8-club.png'
+  },
+  {
+    title: 'TikTok Tech Community - Knowledge Sharing Platform',
+    tags: [
+
+    ],
+    description:
+      'Growing a 1.5K-strong TikTok tech community focused on human-to-human knowledge sharing. Creating educational content about software development, market research, and tech entrepreneurship in Saudi Arabia and beyond.',
+    link: {
+      preview: 'https://www.tiktok.com/@duckthedj'
+    },
+    image: '/images/tiktok-community.png' // Make sure to add an appropriate image
+  },
   {
     title: 'Masarat | Gamified Interactive Map for Balady – Top 10 @ Misk Hackathon',
     tags: [
@@ -278,18 +324,7 @@ export const PROJECTS = [
       github: 'https://github.com/MoussaifS/bookingvenues', 
     },
   },
-  {
-    title: 'TikTok Tech Community - Knowledge Sharing Platform',
-    tags: [
-
-    ],
-    description:
-      'Growing a 1.5K-strong TikTok tech community focused on human-to-human knowledge sharing. Creating educational content about software development, market research, and tech entrepreneurship in Saudi Arabia and beyond.',
-    link: {
-      preview: 'https://www.tiktok.com/@duckthedj'
-    },
-    image: '/images/tiktok-community.png' // Make sure to add an appropriate image
-  },
+  
   {
     title: 'myUniEvent – Decentralized University Events Platform',
     tags: [
