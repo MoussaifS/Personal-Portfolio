@@ -32,18 +32,17 @@ export const AVATAR = {
 }
 
 export const ABOUT = {
-  title: `Full-stack Engineer. Based in Riyadh, Saudi Arabia 🇸🇦`,
-  description1: `Passionate about creating innovative tech solutions & products for Humans.
-Experience building scalable tech products across Saudi Arabia 🇸🇦 and Southeast Asia 🇲🇾.`,
-  description2: `🎯 My main goal is to enhance user experience by making products more accessible and better for everyone.`
+  title: `Product Development Engineer with full-stack expertise. Based in Riyadh, Saudi Arabia 🇸🇦`,
+  description1: `Bridging engineering and business strategy to create products that scale. Experience launching solutions across fintech, PropTech, and e-commerce ecosystems in Saudi Arabia 🇸🇦 and Southeast Asia 🇲🇾.`,
+  description2: `🎯 My main goal is to build innovative products that drive business growth while delivering exceptional user experiences.`
 }
 
 export const LINKS = [
-  {
-    title: 'GitHub',
-    url: 'https://github.com/MoussaifS',
-    icon: GitHubIcon
-  },
+  // {
+  //   title: 'GitHub',
+  //   url: 'https://github.com/MoussaifS',
+  //   icon: GitHubIcon
+  // },
   {
     title: 'LinkedIn',
     url: 'https://www.linkedin.com/in/souhail-mousssaif/',
@@ -73,6 +72,24 @@ export const LINKS = [
 ]
 export const CAREER = [
   {
+    company: '🇸🇦 OneCard',
+    link: 'https://www.onecard.com/sa-ar/', // Update if different
+    badges: ['On-site'],
+    Region: '🇸🇦',
+    jobs: [
+      {
+        title: 'Business Development and Product Specialist',
+        start: 'Oct, 2025', // Add your actual start date
+        end: 'Present',
+        description: [
+          'Managing strategic partnerships and business relationships in the fintech sector.',
+          'Driving business growth through stakeholder engagement and market development initiatives.',
+          'Collaborating with cross-functional teams to optimize user experience and business growth.'
+        ]
+      }
+    ]
+  },
+  {
     company: '🇸🇦 Nuzul [Proptech]',
     link: 'https://nuzul.co/', // Add link if available
     badges: ['On-site'],
@@ -81,7 +98,7 @@ export const CAREER = [
       {
         title: 'Software Engineer & Product Manager',
         start: 'Apr, 2025',
-        end: 'Present',
+        end: 'Oct, 2025',
         description: [
           'Leading technical architecture and product strategy for proptech solutions in Saudi Arabia.',
           'Managing cross-functional teams to deliver innovative real estate technology platforms.',
@@ -280,9 +297,9 @@ export const PROJECTS = [
 
     ],
     description:
-      'Growing a 1.5K-strong TikTok tech community focused on human-to-human knowledge sharing. Creating educational content about software development, market research, and tech entrepreneurship in Saudi Arabia and beyond.',
+      'Growing a 2K-strong TikTok tech community focused on human-to-human knowledge sharing. Creating educational content about software development, market research, and tech entrepreneurship in Saudi Arabia and beyond.',
     link: {
-      preview: 'https://www.tiktok.com/@duckthedj'
+      preview: 'https://www.tiktok.com/@MoussaifSouhail'
     },
     image: '/images/tiktok-community.png' // Make sure to add an appropriate image
   },
@@ -308,11 +325,11 @@ export const PROJECTS = [
       preview: 'https://youtube.com/shorts/8rFNz9l8mCo?feature=share'
     },
     image: '/images/masarat-balady-quest.png' // Update with your image if available
-  },  
+  },
   {
     title: "Venue Booking App – Office Space Scheduling Platform",
     description:
-    'Currently under active development, Streamline office space reservations. Enables users to view venue availability, explore setup options, and make bookings based on real-time capacity and pricing data. Built with scalability in mind for small to mid-sized venue operators.',
+      'Currently under active development, Streamline office space reservations. Enables users to view venue availability, explore setup options, and make bookings based on real-time capacity and pricing data. Built with scalability in mind for small to mid-sized venue operators.',
     tags: [
       TAGS.TAILWIND,
       TAGS.TYPESCRIPT,
@@ -321,10 +338,10 @@ export const PROJECTS = [
     ],
     link: {
       preview: 'https://bookingvenues-5pdr.vercel.app/',
-      github: 'https://github.com/MoussaifS/bookingvenues', 
+      github: 'https://github.com/MoussaifS/bookingvenues',
     },
   },
-  
+
   {
     title: 'myUniEvent – Decentralized University Events Platform',
     tags: [
@@ -334,12 +351,12 @@ export const PROJECTS = [
       TAGS.HTML,
       TAGS.SUPABASE,
       // TAGS.Vite,
-      
+
     ],
     description:
       'A full-stack web application that aimed to bridge the gap between students, clubs, and universities through a event management system. The project ultimately failed—offering valuable lessons in business alignment, product-market fit, and entrepreneurial execution.',
     link: {
-      github: 'https://github.com/MoussaifS/myUniEvent', 
+      github: 'https://github.com/MoussaifS/myUniEvent',
       preview: 'https://fyp-unievent.web.app'
     },
     image: '/images/myunievent.png' // Update this to your actual image path
@@ -354,7 +371,7 @@ export const PROJECTS = [
       TAGS.VERCEL
     ],
     description:
-    'A Laravel MVC project that recommends laptops based on user-specific requirements. The system Processes user input through a data transformation pipeline to generate tailored hardware matches from a database of nearly 1,000 laptops.',
+      'A Laravel MVC project that recommends laptops based on user-specific requirements. The system Processes user input through a data transformation pipeline to generate tailored hardware matches from a database of nearly 1,000 laptops.',
     link: {
       github: 'https://github.com/MoussaifS/iprice-presentation-code',
       // preview: 'https://nextjs-blog-basehub.vercel.app'
@@ -374,7 +391,7 @@ export const PROJECTS = [
       preview: '' // Optional: if available on Chrome Web Store or demo
     },
     image: '/images/minimalist-tube.png' // Optional: Add if you have a screenshot
-  },  
+  },
   {
     title: 'Bob the Chatbot -Chatbot – Rule-Based Conversational UI',
     tags: [
@@ -383,11 +400,11 @@ export const PROJECTS = [
       TAGS.CSS,
     ],
     description:
-    'A minimalist, responsive web chatbot completed in under 2 hours for a job interview.Demonstrating real-time DOM manipulation, responsive layouts, and modular architecture for clean UI behavior and message handling.',
+      'A minimalist, responsive web chatbot completed in under 2 hours for a job interview.Demonstrating real-time DOM manipulation, responsive layouts, and modular architecture for clean UI behavior and message handling.',
     link: {
       github: 'https://github.com/MoussaifS/chatbot'
     },
     image: '/images/chat-with-vader.png'
-  },  
-  
+  },
+
 ]
