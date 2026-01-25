@@ -64,6 +64,14 @@ export const LINKS = [
     url: 'mailto:souhailmoussaif1@gmail.com',
     icon: MailIcon
   },
+  {
+    title: 'WhatsApp',
+    // WhatsApp button - sends a message to +966537665619
+    url: `https://api.whatsapp.com/send?phone=966537665619&text=${encodeURIComponent(
+      'Hi Souhail, I found your portfolio'
+    )}`,
+    icon: LinkIcon
+    },
   // {
   //   title: 'Other Links',
   //   url: 'https://link.emapeire.xyz',
