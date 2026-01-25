@@ -61,7 +61,7 @@ export const LINKS = [
   },
   {
     title: 'Email',
-    url: 'mailto:hi@souhailmoussaif1@gmail.com',
+    url: 'mailto:souhailmoussaif1@gmail.com',
     icon: MailIcon
   },
   // {
