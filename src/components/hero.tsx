@@ -26,7 +26,7 @@ export function Hero() {
     <>
       <div className='flex flex-row'>
         <a
-          href='https://github.com/emapeire'
+          href='https://www.linkedin.com/in/souhail-mousssaif/'
           target='_blank'
           rel='noopener noreferrer'
           className='rounded-full'

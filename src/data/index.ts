@@ -283,7 +283,7 @@ const TAGS = {
 
 export const PROJECTS = [
   {
-    title: 'loc8.club - Urban Explorers Neighborhood Journey Platform',
+    title: 'loc8.club - Urban Explorers Journey Platform',
     tags: [
       TAGS.REACT,
       TAGS.TYPESCRIPT,
@@ -293,7 +293,7 @@ export const PROJECTS = [
       TAGS.VERCEL
     ],
     description:
-      'A curated neighborhood journey platform that transforms urban exploration by bundling the best spots into cohesive experiences. Instead of evaluating single-point recommendations, users discover entire neighborhood journeys that maximize location ROI and access hidden gems through visual journey planning.',
+      'Top 10 Finalist, Misk Super Hackathon | Launchpad 2025 Qualifier. Built a curated city exploration platform with organic user growth. Focused on enhancing local discovery and supporting Vision 2030 tourism goals.',
     link: {
       preview: 'https://loc8.club'
     },
@@ -305,39 +305,16 @@ export const PROJECTS = [
 
     ],
     description:
-      'Growing a 2K-strong TikTok tech community focused on human-to-human knowledge sharing. Creating educational content about software development, market research, and tech entrepreneurship in Saudi Arabia and beyond.',
+      'Growing a 2K-strong TikTok tech community focused onCreating educational content about, Business, market research, and tech entrepreneurship in Saudi Arabia and beyond.',
     link: {
       preview: 'https://www.tiktok.com/@MoussaifSouhail'
     },
     image: '/images/tiktok-community.png' // Make sure to add an appropriate image
   },
   {
-    title: 'Masarat | Gamified Interactive Map for Balady – Top 10 @ Misk Hackathon',
-    tags: [
-      TAGS.REACT,
-      TAGS.TYPESCRIPT,
-      TAGS.TAILWIND,
-      TAGS.CSS,
-      TAGS.HTML,
-      // TAGS.FIRESTORE,
-      // TAGS.AI,
-      // TAGS.BLOCKCHAIN,
-      // TAGS.PRODUCT,
-      // TAGS.GAMIFICATION,
-      // TAGS.HACKATHON
-    ],
-    description:
-      'An immersive interactive map experience, Designed to transform Saudi cities into gamified, and earn rewarding experience. Crafted to align with Saudi Vision 2030. Proudly recognized as a Top 10 project at The MISK Super Hackathon.',
-    link: {
-      github: 'https://github.com/MoussaifS/balady-quest', // Add GitHub link if available
-      preview: 'https://youtube.com/shorts/8rFNz9l8mCo?feature=share'
-    },
-    image: '/images/masarat-balady-quest.png' // Update with your image if available
-  },
-  {
     title: "Venue Booking App – Office Space Scheduling Platform",
     description:
-      'Currently under active development, Streamline office space reservations. Enables users to view venue availability, explore setup options, and make bookings based on real-time capacity and pricing data. Built with scalability in mind for small to mid-sized venue operators.',
+    'Building a real-time venue booking platform with smart availability and pricing. Focused on scalability for small to mid-sized operators.',
     tags: [
       TAGS.TAILWIND,
       TAGS.TYPESCRIPT,
@@ -362,7 +339,7 @@ export const PROJECTS = [
 
     ],
     description:
-      'A full-stack web application that aimed to bridge the gap between students, clubs, and universities through a event management system. The project ultimately failed—offering valuable lessons in business alignment, product-market fit, and entrepreneurial execution.',
+      'Built a event management platform connecting students, clubs, and universities. Led end-to-end development and user adoption efforts. Gained practical insights into product-market fit, business alignment, and execution.',
     link: {
       github: 'https://github.com/MoussaifS/myUniEvent',
       preview: 'https://fyp-unievent.web.app'
@@ -414,5 +391,4 @@ export const PROJECTS = [
     },
     image: '/images/chat-with-vader.png'
   },
-
 ]

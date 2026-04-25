@@ -64,6 +64,19 @@ export function Head({ metadata }: { metadata: Metadata }) {
         href='/apple-touch-icon.png'
       /> */}
       <link rel='manifest' href='/site.webmanifest' />
+
+      {/* Google tag (gtag.js) */}
+      <script
+        async
+        src='https://www.googletagmanager.com/gtag/js?id=G-XNN7RQ97PQ'
+      ></script>
+      <script>
+        {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-XNN7RQ97PQ');`}
+      </script>
     </head>
   )
 }
